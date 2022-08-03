@@ -1,0 +1,45 @@
+﻿@model DojoSurveywModel.Models.Survey
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Survey Index</title>
+</head>
+<body>
+    <fieldset>
+        <form asp-action="SurveySubmission" asp-controller="Home" method="post">
+            <div>
+                <span asp-validation-for="Name"></span>
+                <label asp-for="Name"></label>
+                <input asp-for="Name">
+            </div>
+            <div>
+                <span asp-validation-for="Location"></span>
+                <label asp-for="Location"></label>
+                <select asp-for="Location">
+                    <option value="San Jose">San Jose</option>
+                    <option value="Seattle">Seattle</option>
+                    <option value="Burbank">Burbank</option>
+                </select>
+            </div>
+            <div>
+                <span asp-validation-for="FavLanguage"></span>
+                <label asp-for="FavLanguage"></label>
+                <select asp-for="FavLanguage">
+                    <option value="Python">Python</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                </select>
+            </div>
+            <div>
+                <span asp-validation-for="Comment"></span>
+                <label asp-for="Comment"></label>
+                <input asp-for="Comment">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>
