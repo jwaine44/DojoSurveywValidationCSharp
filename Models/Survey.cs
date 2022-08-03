@@ -1,6 +1,6 @@
 #pragma warning disable CS8618
 using System.ComponentModel.DataAnnotations;
-namespace DojoSurveywModel.Models;
+namespace DojoSurveywValidation.Models;
 
 public class Survey
 {   
