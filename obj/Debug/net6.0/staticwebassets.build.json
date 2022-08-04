@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m35oouENRKrCEnP3Z6rYirWDVhnX5D1SmlSEWzGccIo=",
+  "Hash": "RvFJieoWIwGPCMXHNeSRapLrsLiQCtceBDbCrKZO0PY=",
   "Source": "DojoSurveywValidation",
   "BasePath": "_content/DojoSurveywValidation",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\jwain\\Documents\\Coding\\C#\\Day4\\DojoSurveywValidation\\wwwroot\\css\\style.css",
+      "SourceId": "DojoSurveywValidation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jwain\\Documents\\Coding\\C#\\Day4\\DojoSurveywValidation\\wwwroot\\",
+      "BasePath": "_content/DojoSurveywValidation",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\jwain\\Documents\\Coding\\C#\\Day4\\DojoSurveywValidation\\wwwroot\\favicon.ico",

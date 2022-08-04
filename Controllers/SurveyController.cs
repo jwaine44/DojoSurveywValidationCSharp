@@ -4,12 +4,12 @@ using DojoSurveywValidation.Models;
 
 namespace DojoSurveywValidation.Controllers;
 
-public class HomeController : Controller
+public class SurveyController : Controller
 {
     [HttpGet("")]
     public IActionResult Index()
     {
-        return View();
+        return View("Index");
     }
 
     [HttpPost("")]
@@ -21,7 +21,7 @@ public class HomeController : Controller
         }
         else
         {
-            return View("Index");
+            return Index();
         }
     }
 
